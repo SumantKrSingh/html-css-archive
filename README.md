@@ -1,7 +1,9 @@
-# HTML-CSS Static Projects
+# HTML-CSS Static Projects (Beginner Practice)
+
+> ❗ **Note:** These are my early HTML/CSS practice projects. I’ve now moved on to learning **JavaScript** and **React**.
 
 This repository contains a collection of basic HTML and CSS mini projects I created while learning frontend development.  
-Some projects also use Tailwind CSS for faster and cleaner styling.
+Some projects also use Tailwind CSS for styling.
 
 ---
 
@@ -21,30 +23,13 @@ Some projects also use Tailwind CSS for faster and cleaner styling.
 
 ---
 
-## 📌 Notes
-
-- These projects are **not fully responsive** yet.
-- Code is kept **simple and readable** for learning purposes.
-- More improvements and responsive designs will be added later.
-
----
-
-## 📷 Previews (Coming Soon)
-
-> I'll update with project screenshots or hosted links.
-
----
-
 ## 🙋‍♂️ About Me
 
-I'm a beginner in frontend development, using this repo to track my progress and practice HTML/CSS fundamentals.
+I'm a self-learning developer, and this repo marks the beginning of my frontend journey.  
+Currently, I'm learning **React** and improving my skills in modern web development.
 
 ---
 
 ## 📫 Connect
 
 - GitHub: [@SumantKrSingh](https://github.com/SumantKrSingh)
-
----
-
-> 💡 Feel free to explore the folders and give feedback if you're a fellow learner or developer!
