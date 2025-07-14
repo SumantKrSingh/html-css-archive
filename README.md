@@ -1,5 +1,8 @@
 # HTML-CSS Static Projects (Beginner Practice)
 
+> 📦 This project was created in 2023 during my early learning phase. Pushed in 2025 as an archive of my beginner work.  
+> 💡 I'm pushing this now as part of learning Git and GitHub, to practice version control and code management.
+
 > ❗ **Note:** These are my early HTML/CSS practice projects. I’ve now moved on to learning **JavaScript** and **React**.
 
 This repository contains a collection of basic HTML and CSS mini projects I created while learning frontend development.  
