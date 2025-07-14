@@ -1,0 +1,846 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+   height: 100vh;
+   width: 100vw;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+.navigation {
+   background-color: rgb(24, 24, 24);
+   height: 3rem;
+   width: 100%;
+   position: fixed;
+   z-index: 1000;
+}
+
+.items {
+   display: flex;
+   gap: 3rem;
+   justify-content: center;
+}
+
+.items li {
+   list-style: none;
+   margin-top: 0.6rem;
+}
+
+.fa-apple {
+   font-size: 1.1rem;
+}
+
+.items a {
+   text-decoration: none;
+   color: rgb(162, 162, 162);
+   font-family: "Roboto";
+   font-size: 0.75rem;
+   transition: all 200ms ease-in-out;
+}
+
+.items a:hover {
+   color: white;
+}
+
+
+.promo-strip {
+   height: 3rem;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(29, 29, 31);
+   margin-top: 3rem;
+}
+
+.promo-strip h4 {
+   color: rgba(255, 255, 255, 0.911);
+   font-size: smaller;
+}
+
+.promo-strip a {
+   text-decoration: none;
+   color: #085BB0;
+   font-size: 0.9rem;
+}
+
+.fa-chevron-right {
+   font-size: 12px;
+   margin-left: 8px;
+   cursor: pointer;
+}
+
+/* Section 1 */
+
+.herosection {
+   padding-top: 6rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url(./Images/hero_macbookpro.jpg);
+   height: 80%;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+}
+
+.herosection h1 {
+   color: white;
+   font-weight: bold;
+   font-size: 3.5rem;
+   font-family: sans-serif;
+   margin-top: 4rem;
+}
+
+.herosection h4 {
+   color: white;
+   font-weight: 450;
+   font-size: 2rem;
+}
+
+.herosection h5 {
+   background: linear-gradient(90deg, #2682f0 8%, #9957db 38%, #bb3e15 100%);
+   color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 250;
+   font-size: 1.5rem;
+   margin-top: 17rem;
+}
+
+.herosection h6 {
+   color: rgba(255, 255, 255, 0.694);
+   font-weight: 250;
+   font-size: 1rem;
+}
+
+.learn-more-btn {
+   margin-top: 1rem;
+   padding: 0.6rem 1rem 0.6rem 1rem;
+   font-size: 1.2rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.learn-more-btn:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-btn {
+   margin-top: 1rem;
+   margin-left: 1rem;
+   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+   font-size: 1.2rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-btn:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+
+/* Section 2 */
+
+
+.herosection2 {
+   margin-top: 0.8rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url(./Images/hero_iphone16pro_avail__fnf0f9x70jiy_mediumtall.jpg);
+   height: 80%;
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   cursor: pointer;
+}
+
+.herosection2 h1 {
+   color: white;
+   font-weight: bold;
+   font-size: 3.5rem;
+   font-family: sans-serif;
+   margin-top: 4rem;
+}
+
+.herosection2 h4 {
+   color: white;
+   font-weight: 400;
+   font-size: 1.8rem;
+}
+
+.cta-button {
+   margin-top: 19rem;
+}
+
+.learn-more {
+   margin-top: 1rem;
+   padding: 0.6rem 1rem 0.6rem 1rem;
+   font-size: 1.2rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.learn-more:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-button {
+   margin-top: 1rem;
+   margin-left: 0.6rem;
+   padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+   font-size: 1.2rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-button:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+.herosection2 h6 {
+   margin-top: 0.6rem;
+   color: rgba(255, 255, 255, 0.694);
+   font-weight: 250;
+   font-size: 1rem;
+}
+
+/* Section 3 */
+
+
+.herosection3 {
+   margin-top: 0.8rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url(./Images/hero_iphone16_avail__euwzls69btea_mediumtall.jpg);
+   height: 80%;
+   width: 100%;
+   background-position: center;
+   background-size: contain;
+   cursor: pointer;
+}
+
+.herosection3 h1 {
+   color: white;
+   font-weight: bold;
+   font-size: 3.5rem;
+   font-family: sans-serif;
+   margin-top: 4rem;
+}
+
+.herosection3 h4 {
+   color: white;
+   font-weight: 400;
+   font-size: 1.8rem;
+}
+
+.cta-button3 {
+   margin-top: 18rem;
+}
+
+.learn-more {
+   margin-top: 1rem;
+   padding: 0.6rem 1rem 0.6rem 1rem;
+   font-size: 1.2rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.learn-more:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-button {
+   margin-top: 1rem;
+   margin-left: 0.6rem;
+   padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+   font-size: 1.2rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-button:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+.herosection3 h6 {
+   margin-top: 0.6rem;
+   color: rgb(18, 17, 17);
+   font-weight: 250;
+   font-size: 1rem;
+}
+
+
+/* Product section */
+
+
+.product-sec {
+   margin-top: 0.8rem;
+   height: 80%;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+
+#product-cont {
+   height: 100%;
+   width: 48.5%;
+   background-image: url(./Images/promo_apple_watch_series_10_avail__b9etp10v9tn6_large.jpg);
+   background-size: 176%;
+   background-position: bottom;
+}
+
+
+.product img {
+   margin-top: 3rem;
+   margin-left: 18rem;
+}
+
+.product h3 {
+   color: black;
+   font-weight: 400;
+   font-size: 1.3rem;
+   margin-left: 17.5rem;
+   margin-top: -0.2rem;
+}
+
+.product-btn {
+   margin-left: 16rem;
+}
+
+.learn-more {
+   margin-top: 0.9rem;
+   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+   font-size: 1rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.learn-more:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-button {
+   margin-top: 0.9rem;
+   margin-left: 0.6rem;
+   padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+   font-size: 1rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-button:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+
+#product-cont2 {
+   height: 100%;
+   width: 48.5%;
+   background-image: url(./Images/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg);
+   background-size: 100%;
+   background-position: top;
+}
+
+.product h1 {
+   color: white;
+   font-weight: 550;
+   font-size: 2.9rem;
+   font-family: sans-serif;
+   margin-left: 15rem;
+   margin-top: 24rem;
+}
+
+.product h4 {
+   color: white;
+   font-weight: 400;
+   font-size: 1.4rem;
+   letter-spacing: 1.2px;
+   line-height: 1.2rem;
+   margin-left: 14rem;
+}
+
+.product h5 {
+   color: white;
+   font-weight: 400;
+   font-size: 1.4rem;
+   margin-left: 10rem;
+}
+
+.product-btn2 {
+   margin-left: 16rem;
+}
+
+.learn-more {
+   margin-top: 0.9rem;
+   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+   font-size: 1rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.learn-more:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-button {
+   margin-top: 0.9rem;
+   margin-left: 0.6rem;
+   padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+   font-size: 1rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-button:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+
+/* Category Section */
+.category-sec {
+   margin-top: 0.8rem;
+   height: 70%;
+   width: 100%;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+
+/* 1st div */
+#category-cont {
+   height: 100%;
+   width: 48.5%;
+   background-image: url(./Images/hero_macmini.jpg);
+   background-size: cover;
+   background-position: bottom;
+   background-repeat: no-repeat;
+}
+
+
+.category h1 {
+   color: black;
+   font-weight: 700;
+   font-size: 2.2rem;
+   margin-left: 17.5rem;
+   margin-top: 3rem;
+}
+
+
+.category h4 {
+   color: black;
+   font-weight: 400;
+   font-size: 1.3rem;
+   margin-left: 16rem;
+}
+
+.grp-btns {
+   margin-left: 16rem;
+}
+
+.learn-more {
+   margin-top: 0.9rem;
+   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+   font-size: 1rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.learn-more:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-button {
+   margin-top: 0.9rem;
+   margin-left: 0.6rem;
+   padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+   font-size: 1rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-button:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+
+.category h5 {
+   background: linear-gradient(90deg, #0965d6 8%, #8115ed 38%, #eb4108 100%);
+   color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 600;
+   font-size: 1.1rem;
+   margin-top: 16.5rem;
+   margin-left: 15rem;
+}
+
+
+.category h6 {
+   margin-top: 0.6rem;
+   color: rgb(18, 17, 17);
+   font-weight: 400;
+   font-size: 1rem;
+   margin-left: 15.5rem;
+   margin-top: -0.2rem;
+}
+
+/* 2nd div */
+#category-cont2 {
+   height: 100%;
+   width: 48.5%;
+   background-image: url(./Images/hero_imac.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+
+.category2 h1 {
+   color: black;
+   font-weight: 700;
+   font-size: 2.3rem;
+   margin-left: 18rem;
+   margin-top: 3rem;
+}
+
+
+.category2 h4 {
+   color: black;
+   font-weight: 400;
+   font-size: 1.3rem;
+   margin-left: 17.8rem;
+}
+
+.grp-btns1 {
+   margin-left: 16rem;
+}
+
+.learn-mores {
+   margin-top: 0.9rem;
+   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+   font-size: 1rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.learn-mores:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-buttons {
+   margin-top: 0.9rem;
+   margin-left: 0.6rem;
+   padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+   font-size: 1rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-buttons:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+
+.category2 h5 {
+   background: linear-gradient(90deg, #0965d6 8%, #8115ed 38%, #eb4108 100%);
+   color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 600;
+   font-size: 1.1rem;
+   margin-top: 16.5rem;
+   margin-left: 15rem;
+}
+
+
+.category2 h6 {
+   margin-top: 0.6rem;
+   color: rgb(18, 17, 17);
+   font-weight: 400;
+   font-size: 1rem;
+   margin-left: 15.5rem;
+   margin-top: -0.2rem;
+}
+
+
+
+/* ---- Second category ----- */
+.category-sec2 {
+   margin-top: 0.8rem;
+   height: 70%;
+   width: 100%;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
+
+/* 1st div */
+#category-cont3 {
+   height: 100%;
+   width: 48.5%;
+   background-image: url(./Images/promo_ipad_mini__spq4zjcuuaie_medium.jpg);
+   background-size: cover;
+   background-position: 0 65%;
+   background-repeat: no-repeat;
+}
+
+
+.category3 h1 {
+   color: black;
+   font-weight: 600;
+   font-size: 2.6rem;
+   margin-left: 17.5rem;
+   margin-top: 2rem;
+}
+
+
+.category3 h4 {
+   color: black;
+   font-weight: 400;
+   font-size: 1.3rem;
+   margin-left: 16rem;
+}
+
+.grp-btns2 {
+   margin-left: 18rem;
+}
+
+.learn-more1 {
+   margin-top: 0.5rem;
+   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+   font-size: 1rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.learn-more1:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-button1 {
+   margin-top: 0.9rem;
+   margin-left: 0.6rem;
+   padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+   font-size: 1rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-button1:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+
+
+.category3 h6 {
+   margin-top: 19rem;
+   color: rgba(18, 17, 17, 0.824);
+   font-weight: 380;
+   font-size: 0.9rem;
+   margin-left: 14.5rem;
+}
+
+/* 2nd div */
+#category-cont4 {
+   height: 100%;
+   width: 48.5%;
+   background-image: url(./Images/promo_iphone_tradein__bugw15ka691e_medium.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.category4 img {
+   margin-top: 3rem;
+   margin-left: 18rem;
+}
+
+
+.category4 h3 {
+   color: black;
+   font-weight: 400;
+   font-size: 1.3rem;
+   margin-left: 14.8rem;
+}
+
+.grp-btns3 {
+   margin-left: 19rem;
+}
+
+.estimate {
+   margin-top: 0.9rem;
+   padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+   font-size: 1rem;
+   background-color: rgb(0, 113, 227);
+   color: white;
+   font-weight: 400;
+   border-radius: 30px;
+   border: none;
+}
+
+.estimate:hover {
+   background-color: rgb(8, 123, 239);
+   cursor: pointer;
+}
+
+
+.buy-buttons2 {
+   margin-top: 0.9rem;
+   margin-left: 0.6rem;
+   padding: 0.5rem 1.1rem 0.5rem 1.1rem;
+   font-size: 1rem;
+   background-color: transparent;
+   color: rgb(0, 113, 227);
+   font-weight: 400;
+   border-radius: 20px;
+   border: 1.5px solid rgb(0, 113, 227);
+}
+
+
+.buy-buttons2:hover {
+   background-color: rgb(8, 123, 239);
+   color: white;
+   cursor: pointer;
+}
+
+
+.category4 h5 {
+   background: linear-gradient(90deg, #0965d6 8%, #8115ed 38%, #eb4108 100%);
+   color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 600;
+   font-size: 1.1rem;
+   margin-top: 16.5rem;
+   margin-left: 15rem;
+}
+
+
+.category4 h6 {
+   margin-top: 0.6rem;
+   color: rgb(18, 17, 17);
+   font-weight: 400;
+   font-size: 1rem;
+   margin-left: 15.5rem;
+   margin-top: -0.2rem;
+}
+
+
+/* slider
+
+.slide-sec{
+   height: 100%;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.images{
+   background-image: url(./Images/Screenshot\ 2024-11-15\ 193723.png);
+   height: 100vh;
+   width: 100vw;
+   background-position: center;
+   background-size: cover;
+} */

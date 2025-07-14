@@ -1,0 +1,316 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'work sans';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0px 90px;
+    padding-top: 170px;
+    /* gap: 175px; */
+}
+
+#left{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#left h1{
+    font-size: 8.6vw;
+    font-family: work sans;
+    font-weight: 500;
+   line-height: 8.8vw;
+}
+
+#bottom-left{
+    height: 40%;
+    width: 100%;
+}
+
+#color{
+    width: fit-content;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    
+}
+
+#color h5{
+    font-size: 20p1x;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+#color1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: burlywood;
+    margin: 5px;
+}
+
+#color2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+#left h2{
+    margin-top: 50px;
+    font-size: 2vw;
+    margin-bottom: 15px;
+
+}
+
+#left p{
+    font-size: 1.2vw;
+    width: 65%;
+    font-weight: 600;
+    color: #444;
+    line-height: 1.6vw;
+}
+
+#right{
+    width: 38%;
+    height: 90%;
+    position: relative;
+}
+
+#right-top{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: work sans;
+}
+
+#right-top h5{
+    font-size: 16px;
+}
+
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    height: 88%;
+   object-fit: cover;
+}
+
+#black{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 50%;
+    right: -12%;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+}
+
+#black h5{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#rotated{
+    position: absolute;
+    left:-8% ;
+    bottom: 3%;
+    bottom: 0;
+    rotate: -90deg;
+    transform-origin: 0 0;
+}
+
+@media (max-width:600px){
+    
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+
+#left{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 40px;
+}
+
+
+
+#left h1{
+    font-size: 19.4vw;
+    font-family: work sans;
+    font-weight: 500;
+   line-height: 18vw;
+}
+
+#bottom-left{
+    height: 40%;
+    width: 100%;
+}
+
+
+#color{
+    width: fit-content;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    
+}
+
+#color h5{
+    font-size: 13px;
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+#color1{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: burlywood;
+    margin: 5px;
+}
+
+#color2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: brown;
+}
+
+#left h2{
+    margin-top: 20px;
+    font-size: 3.4vw;
+    margin-bottom: 8px;
+
+}
+
+#left p{
+    font-size: 2.2vw;
+    width: 85%;
+    font-weight: 600;
+    color: #444;
+    line-height: 2.6vw;
+}
+
+#right{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#right-top{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0px;
+}
+
+#right-top h4{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: work sans;
+}
+
+#right-top h5{
+    font-size: 15px;
+}
+
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    height: 88%;
+   object-fit: cover;
+    border-radius:8px ;
+}
+
+#black{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+}
+
+#black h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#rotated{
+    position: absolute;
+    left:0 ;
+    top:-12%;
+    bottom: 0;
+    rotate: 0deg;
+    transform-origin: 0 0;
+    font-size: 28px;
+}
+
+}
