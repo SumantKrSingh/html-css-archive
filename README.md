@@ -1,6 +1,6 @@
 # HTML-CSS Static Projects (Beginner Practice)
 
-> 📦 This project was created in 2023 during my early learning phase. Pushed in 2025 as an archive of my beginner work.  
+> 📦 This project was created in 2024 during my early learning phase. Pushed in 2025 as an archive of my beginner work.  
 > 💡 I'm pushing this now as part of learning Git and GitHub, to practice version control and code management.
 
 > ❗ **Note:** These are my early HTML/CSS practice projects. I’ve now moved on to learning **JavaScript** and **React**.
